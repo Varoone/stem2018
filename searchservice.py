@@ -1,10 +1,10 @@
 import json
 from pprint import pprint
 
-with open('.\\data\\chemicals.csv', 'r') as filechemicals:
+with open('./data/chemicals.csv', 'r') as filechemicals:
     chemdata = json.load(filechemicals)
 
-with open('.\\data\\state.csv', 'r') as filex:
+with open('./data/state.csv', 'r') as filex:
     statedata = json.load(filex)
 
 pickone = input("Do you want to search about states or chemicals ENTER S for states and C for chemicals: ")
